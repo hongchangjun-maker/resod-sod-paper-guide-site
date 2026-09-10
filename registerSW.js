@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/resod-sod-paper-guide-site/sw.js', { scope: '/resod-sod-paper-guide-site/' })})}
